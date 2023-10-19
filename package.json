@@ -1,0 +1,16 @@
+{
+  "name": "test-cafe-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./test.ts --app \"serve -s ./public -l 8080\"",
+    "test:firefox": "testcafe firefox ./test.ts --app \"serve -s ./public -l 8080\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1",
+    "testcafe": "^3.3.0"
+  }
+}
